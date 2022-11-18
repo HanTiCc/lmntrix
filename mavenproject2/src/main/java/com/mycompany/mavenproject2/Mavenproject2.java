@@ -14,14 +14,31 @@ import java.util.Scanner;
 public class Mavenproject2 {
 
     public static void main(String[] args) {
-        String a, e, i, o, u, huruf, vokal;
-        Scanner scan = new Scanner(System.in);
-        System.out.print("Masukkan 1 huruf dalam alphabet = ");
+        String huruf;
+        Scanner scan= new Scanner(System.in);
+        System.out.print("Masukkan satu huruf anda (A - Z) = ");
         huruf=scan.next();
-        
-        if (huruf=a, e, i, o, u) {
-        
-    }
-        System.out.println("Hello World!");
+        if ("a".equalsIgnoreCase(huruf)) {
+            System.out.print("Huruf Vokal");
+        } else {
+            if ("e".equalsIgnoreCase(huruf)) {
+            System.out.print("Huruf Vokal");
+        } else {
+            if ("i".equalsIgnoreCase(huruf)) {
+            System.out.print("Huruf Vokal");
+        } else {
+            if ("o".equalsIgnoreCase(huruf)) {
+            System.out.print("Huruf Vokal");
+        } else {
+            if ("u".equalsIgnoreCase(huruf)) {
+            System.out.print("Huruf Vokal");
+        } else {
+        System.out.println("Huruf Konsonan");
+            }
+            }
+            }
+            }
+        }
     }
 }
+
